@@ -14,12 +14,15 @@ These are the images and JSON-file in this repo.
 
 TBD
 
-### 4. Choose a target platform
+### 4. Start the live stream
 
-4.1 Mixer
+TBD
+
+### 5. Choose a target platform
+
+5.1 Mixer
 
 https://mixer.com/OSWA-Stream
-
-4.2 YouTube
+5.2 YouTube
 
 TBD
