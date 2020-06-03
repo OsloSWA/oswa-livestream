@@ -1,23 +1,23 @@
-# oswa-livestream
+# OSWA Live Stream resources
 
-## Download the OBS - Open Broadcaster Software
+1. Download the OBS - Open Broadcaster Software
 
 https://obsproject.com/
 
-## Download the OSWA OBS configuration
+2. Download the OSWA OBS configuration
 
 These are the images and JSON-file in this repo.
 
-## Prepare the live stream
+3. Prepare the live stream
 
 TBD
 
-## Choose a target platform
+4. Choose a target platform
 
-### Mixer
+4.1 Mixer
 
 https://mixer.com/OSWA-Stream
 
-### YouTube
+4.2 YouTube
 
 TBD
