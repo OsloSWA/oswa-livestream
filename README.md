@@ -26,4 +26,6 @@ https://mixer.com/OSWA-Stream
 
 5.2 YouTube
 
+https://www.youtube.com/channel/UCb508f8y_d0PqRZKPCVVVxQ
+
 TBD
