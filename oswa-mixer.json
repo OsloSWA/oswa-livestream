@@ -1,0 +1,572 @@
+{
+    "AuxAudioDevice1": {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_input_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": true,
+        "name": "Mic/Aux",
+        "prev_ver": 419430408,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "versioned_id": "wasapi_input_capture",
+        "volume": 0.0
+    },
+    "DesktopAudioDevice1": {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_output_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "Desktop Audio",
+        "prev_ver": 419430408,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "versioned_id": "wasapi_output_capture",
+        "volume": 0.0
+    },
+    "current_program_scene": "Scene",
+    "current_scene": "Scene",
+    "current_transition": "Fade",
+    "groups": [],
+    "modules": {
+        "auto-scene-switcher": {
+            "active": false,
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi",
+            "source": ""
+        },
+        "output-timer": {
+            "autoStartRecordTimer": false,
+            "autoStartStreamTimer": false,
+            "pauseRecordTimer": true,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30
+        },
+        "scripts-tool": []
+    },
+    "name": "Untitled",
+    "preview_locked": false,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Cut"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Fade"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": true,
+            "hotkeys": [],
+            "id": 3,
+            "name": "Fade"
+        }
+    ],
+    "saved_projectors": [],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "scene_order": [
+        {
+            "name": "Scene"
+        },
+        {
+            "name": "Count down timer"
+        },
+        {
+            "name": "Be back soon"
+        }
+    ],
+    "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Sponser image rotation",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": []
+            },
+            "sync": 0,
+            "versioned_id": "slideshow",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Stream be back soon",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Arial",
+                    "flags": 0,
+                    "size": 72,
+                    "style": "Regular"
+                },
+                "text": "OSWA will be back soon"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Media Source": [],
+                "libobs.hide_scene_item.Sponser image rotation": [],
+                "libobs.hide_scene_item.Stream be back soon": [],
+                "libobs.show_scene_item.Media Source": [],
+                "libobs.show_scene_item.Sponser image rotation": [],
+                "libobs.show_scene_item.Stream be back soon": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Be back soon",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 5,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Media Source",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Stream be back soon",
+                        "pos": {
+                            "x": 95.0,
+                            "y": 444.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.5721650123596191,
+                            "y": 2.5675675868988037
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Sponser image rotation",
+                        "pos": {
+                            "x": 1524.0,
+                            "y": 816.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.24750000238418579,
+                            "y": 0.24765478074550629
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Stream starting text",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "font": {
+                    "face": "Arial",
+                    "flags": 0,
+                    "size": 72,
+                    "style": "Regular"
+                },
+                "text": "OSWA Stream \n\nStarting soon\n\n17:00 - 18:00 GMT +1\n\n ",
+                "transform": 1
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Media Source",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Media Source": [],
+                "libobs.hide_scene_item.Stream starting text": [],
+                "libobs.show_scene_item.Media Source": [],
+                "libobs.show_scene_item.Stream starting text": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Count down timer",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Media Source",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Stream starting text",
+                        "pos": {
+                            "x": 474.0,
+                            "y": 202.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5843949317932129,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Cisco",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "Cisco Webex Meetings:wcl_manager1:atmgr.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Cisco": [],
+                "libobs.show_scene_item.Cisco": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scene",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 11,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Cisco",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 25.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 300,
+    "transitions": [
+        {
+            "id": "wipe_transition",
+            "name": "Luma Wipe",
+            "settings": {}
+        }
+    ]
+}
