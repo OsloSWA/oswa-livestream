@@ -20,12 +20,6 @@ TBD
 
 ### 5. Choose a target platform
 
-5.1 Mixer
-
-https://mixer.com/OSWA-Stream
-
-5.2 YouTube
+YouTube
 
 https://www.youtube.com/channel/UCb508f8y_d0PqRZKPCVVVxQ
-
-TBD
